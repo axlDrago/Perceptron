@@ -5,8 +5,7 @@
 const perceptron = require("./perceptron");
 
 let p = new perceptron();
-p.init([[process.argv[2], process.argv[3]], weight = []
-])
+p.init([[process.argv[2], process.argv[3]], weight = []])
 
 trainData = {
     'or': {

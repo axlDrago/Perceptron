@@ -5,7 +5,7 @@ module.exports = class Perceptron {
 
     /*Вход, веса, массив данных для обучения
     */
-    init([input = [], weight = [], trainData = []]){
+    init([input = [], weight = []]){
         this.input = input;
         this.weight = weight;
         this.a = 1;
